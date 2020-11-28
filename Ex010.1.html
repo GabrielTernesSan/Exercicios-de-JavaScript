@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfandega</title>
+</head>
+<body>
+    <h1>
+        Alfandega
+    </h1>
+    De onde está vindo? <input type="text" name="txtori" id="txtori">
+    <input type="button" value="Verificar" onclick="Responde()">
+    <div id='res'>
+        <script>
+            function Responde(){
+            var txtorig = window.document.getElementById('txtori')
+            var País = (txtorig.value)
+            if (País == 'Brasil'){
+                res.innerHTML = "<p>Você é Brasileiro, siga em frente</p>"
+            } else {
+                res.innerHTML = "<p>Você é um Estrangeiro, dirija-se ao guichê ao lado</p>"
+                }
+            }
+            </script>
+</body>
+</html>
