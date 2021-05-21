@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-color: #1a1a1a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 540px;
+    height: 540px;
+
+    border: 1px solid #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    filter: url(#gooey);
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    background-color: #5fe36a;
+
+    position: absolute;
+}
+
+.ball-1{
+    top: 40%;
+    left: 20%;
+
+    animation: ball-1 2s ease infinite alternate;
+}
+
+.ball-2{
+    top: 40%;
+    left: 60%;
+    animation: ball-2 2s ease infinite alternate;
+}
+
+@keyframes ball-1{
+    from{
+        left: 20%;
+    }
+    to{
+        left: 60%;
+    }
+}
+
+@keyframes ball-2{
+    from{
+        left: 60%;
+    }
+    to{
+        left: 30%;
+    }
+}
+
