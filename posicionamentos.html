@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static, relative, absolute and fixed)</title>
+
+    <style type="text/css">
+
+        body{
+            background: #007fc7;
+        }
+
+        #container{
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 5px;
+            /* position: relative; se o container não tiver um posicionamento eu não consigo alinhar um elemento absoluto baseado nele */
+        }
+
+        p{
+            width: 300px;
+            margin: 0px;
+        }
+
+        .fixed{
+            position: fixed;
+            background: #f2f2f2;
+            right: 80px;
+
+        }
+
+        /* .absolute{
+            position: absolute;
+            background: #f2f2f2;
+            top: 80px;
+            right: 80px;
+
+        } */
+
+        /* .relative{
+            /* position: relative;
+            /* top, right, bottom and left */
+            /* top: 0px;
+            left: 0px; 
+            bottom: -20px;
+        } */
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="container">
+
+        <h1>Posicionamentos</h1>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsum deleniti molestiae! Mollitia officia aperiam reprehenderit possimus, vel vero eum tempora quasi impedit perferendis architecto in. Officia iusto quibusdam quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laudantium animi aliquam quia obcaecati corrupti error itaque excepturi unde, corporis, ipsum veniam temporibus perspiciatis saepe voluptatum eveniet, dolore consequatur enim.
+        </p>
+        
+        <p class="fixed">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsum deleniti molestiae! Mollitia officia aperiam reprehenderit possimus, vel vero eum tempora quasi impedit perferendis architecto in. Officia iusto quibusdam quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laudantium animi aliquam quia obcaecati corrupti error itaque excepturi unde, corporis, ipsum veniam temporibus perspiciatis saepe voluptatum eveniet, dolore consequatur enim.
+        </p>
+        
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsum deleniti molestiae! Mollitia officia aperiam reprehenderit possimus, vel vero eum tempora quasi impedit perferendis architecto in. Officia iusto quibusdam quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laudantium animi aliquam quia obcaecati corrupti error itaque excepturi unde, corporis, ipsum veniam temporibus perspiciatis saepe voluptatum eveniet, dolore consequatur enim.
+        </p>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsum deleniti molestiae! Mollitia officia aperiam reprehenderit possimus, vel vero eum tempora quasi impedit perferendis architecto in. Officia iusto quibusdam quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laudantium animi aliquam quia obcaecati corrupti error itaque excepturi unde, corporis, ipsum veniam temporibus perspiciatis saepe voluptatum eveniet, dolore consequatur enim.
+        </p>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsum deleniti molestiae! Mollitia officia aperiam reprehenderit possimus, vel vero eum tempora quasi impedit perferendis architecto in. Officia iusto quibusdam quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laudantium animi aliquam quia obcaecati corrupti error itaque excepturi unde, corporis, ipsum veniam temporibus perspiciatis saepe voluptatum eveniet, dolore consequatur enim.
+        </p>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsum deleniti molestiae! Mollitia officia aperiam reprehenderit possimus, vel vero eum tempora quasi impedit perferendis architecto in. Officia iusto quibusdam quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil laudantium animi aliquam quia obcaecati corrupti error itaque excepturi unde, corporis, ipsum veniam temporibus perspiciatis saepe voluptatum eveniet, dolore consequatur enim.
+        </p>
+        
+        
+    </div>
+
+</body>
+</html>
